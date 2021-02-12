@@ -31,8 +31,8 @@ public class ItemLoader {
         JUNGLE_SWORD = register("jungle_sword", (new SwordItem(ToolMaterials.WOOD, 3, -2.4F, (new Item.Settings()).group(WoodenTools.WOOD_SWORDS))));
         ACACIA_SWORD = register("acacia_sword", (new SwordItem(ToolMaterials.WOOD, 3, -2.4F, (new Item.Settings()).group(WoodenTools.WOOD_SWORDS))));
         DARK_OAK_SWORD = register("dark_oak_sword", (new SwordItem(ToolMaterials.WOOD, 3, -2.4F, (new Item.Settings()).group(WoodenTools.WOOD_SWORDS))));
-        CRIMSON_SWORD = register("crimson_sword", (new SwordItem(ToolMaterials.WOOD, 3, -2.4F, (new Item.Settings()).group(WoodenTools.WOOD_SWORDS))));
-        WARPED_SWORD = register("warped_sword", (new SwordItem(ToolMaterials.WOOD, 3, -2.4F, (new Item.Settings()).group(WoodenTools.WOOD_SWORDS))));
+        CRIMSON_SWORD = register("crimson_sword", (new SwordItem(ToolMaterials.WOOD, 4, -2.4F, (new Item.Settings()).group(WoodenTools.WOOD_SWORDS))));
+        WARPED_SWORD = register("warped_sword", (new SwordItem(ToolMaterials.WOOD, 4, -2.4F, (new Item.Settings()).group(WoodenTools.WOOD_SWORDS))));
     }
 
     public static void INIT() {
